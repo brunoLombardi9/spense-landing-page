@@ -1,9 +1,13 @@
-export const navOptions = ["Business", "Pricing", "Features"];
+export const topNav = {
+  hamburgugerBtn: "assets/Hamburger Menu.svg",
+  navOptions : ["Business", "Pricing", "Features"]
+};
 
 export const getStarted = {
   heroDesktop: "assets/Hero Image (Desktop).png",
   heroMobile: "assets/Hero Image (Mobile).png",
   title: "Share your unfiltered thoughts. Get paid.",
+  checkIcon: "assets/Checkmark.svg",
   description:
     "Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doingjust that.",
   features: [

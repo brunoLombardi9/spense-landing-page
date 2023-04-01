@@ -10,7 +10,7 @@ const Advertising = () => {
           entire month of April.{" "}
           <span className="text-decoration-underline">
             You Will be receiving 100% of the earnings.
-          </span>
+          </span> 🎉
         </p>
       </Row>
     </Container>
