@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
-import UseGetWindowsWidth from "./UseGetWindowsWidth";
 
-const UseGetHeroImage = () => {
-  const width = UseGetWindowsWidth();
+const UseGetHeroImage = (width) => {
   const [heroImage, setHeroImage] = useState("");
 
   useEffect(() => {

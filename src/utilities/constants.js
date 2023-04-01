@@ -1,6 +1,6 @@
 export const topNav = {
   hamburgugerBtn: "assets/Hamburger Menu.svg",
-  navOptions : ["Business", "Pricing", "Features"]
+  navOptions: ["Business", "Pricing", "Features"],
 };
 
 export const getStarted = {
@@ -9,7 +9,7 @@ export const getStarted = {
   title: "Share your unfiltered thoughts. Get paid.",
   checkIcon: "assets/Checkmark.svg",
   description:
-    "Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doingjust that.",
+    "Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doing just that.",
   features: [
     "Receive 99% off the earnings.",
     "Get paid via Debit Card, ACH, or PayPal.",
@@ -22,7 +22,7 @@ export const brandsImages = [
   { brand: "dribbble", logoUrl: "assets/Dribbble Logo.png" },
   { brand: "youtube", logoUrl: "assets/Youtube Logo.png" },
   { brand: "pinterest", logoUrl: "assets/Pinterest Logo.png" },
-  { brand: "twitter", logoUrl: "assets/Twitter Logo" },
+  { brand: "twitter", logoUrl: "assets/Twitter Logo.png" },
   { brand: "reddit", logoUrl: "assets/Reddit Logo.png" },
   { brand: "google", logoUrl: "assets/Google Logo.png" },
   { brand: "slack", logoUrl: "assets/Slack Logo.png" },

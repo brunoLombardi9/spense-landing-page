@@ -2,3 +2,7 @@
     width: 25px;
     height: 25px;
 }
+
+.heroImage{
+    max-height: 550px;
+}
