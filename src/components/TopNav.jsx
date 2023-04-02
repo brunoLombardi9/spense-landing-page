@@ -1,7 +1,7 @@
 import React from "react";
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { topNav } from "../utilities/constants";
-import UseGetWindowsWidth from "../hooks/UseGetWindowsWidth";
+import UseGetWindowsWidth from "../utilities/hooks/UseGetWindowsWidth";
 import GetStartedBtn from "./GetStartedBtn";
 
 const TopNav = () => {

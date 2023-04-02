@@ -18,14 +18,14 @@ export const getStarted = {
 };
 
 export const brandsImages = [
-  { brand: "facebook", logoUrl: "assets/Facebook Logo.png" },
-  { brand: "dribbble", logoUrl: "assets/Dribbble Logo.png" },
-  { brand: "youtube", logoUrl: "assets/Youtube Logo.png" },
-  { brand: "pinterest", logoUrl: "assets/Pinterest Logo.png" },
-  { brand: "twitter", logoUrl: "assets/Twitter Logo.png" },
-  { brand: "reddit", logoUrl: "assets/Reddit Logo.png" },
-  { brand: "google", logoUrl: "assets/Google Logo.png" },
-  { brand: "slack", logoUrl: "assets/Slack Logo.png" },
+  { id: 0, brand: "facebook", logoUrl: "assets/Facebook Logo.png" },
+  { id: 1, brand: "dribbble", logoUrl: "assets/Dribbble Logo.png" },
+  { id: 2, brand: "youtube", logoUrl: "assets/Youtube Logo.png" },
+  { id: 3, brand: "pinterest", logoUrl: "assets/Pinterest Logo.png" },
+  { id: 4, brand: "twitter", logoUrl: "assets/Twitter Logo.png" },
+  { id: 5, brand: "reddit", logoUrl: "assets/Reddit Logo.png" },
+  { id: 6, brand: "google", logoUrl: "assets/Google Logo.png" },
+  { id: 7, brand: "slack", logoUrl: "assets/Slack Logo.png" },
 ];
 
 export const escrow = {

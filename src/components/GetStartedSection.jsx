@@ -1,7 +1,7 @@
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import UseGetHeroImage from "../hooks/UseGetHeroImage";
-import UseGetWindowsWidth from "../hooks/UseGetWindowsWidth";
+import UseGetHeroImage from "../utilities/hooks/UseGetHeroImage";
+import UseGetWindowsWidth from "../utilities/hooks/UseGetWindowsWidth";
 import { getStarted } from "../utilities/constants";
 import "./css/GetStartedSection.css";
 import GetStartedBtn from "./GetStartedBtn";
@@ -25,7 +25,7 @@ const GetStartedSection = () => {
                     src={getStarted.checkIcon}
                     className="checkIcon my-1 me-1"
                   />
-                  <h3 className="display-6 link-brown fw-bold">{f}</h3>
+                  <h3 className="display-6 link-brown fw-bold my-auto">{f}</h3>
                 </div>
               ))}
 

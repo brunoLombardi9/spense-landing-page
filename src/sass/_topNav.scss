@@ -1,19 +1,18 @@
 .navbar-toggler {
-    border-color: $light-grey;
-  }
-  
-  .navbar-toggler:active {
-    border-color: $light-grey;
-  }
-  
-  .navbar-toggler:focus,
-  .navbar-toggler:active,
-  .navbar-toggler-icon:focus {
-    outline: none;
-    box-shadow: none;
-  }
-  
-  .navbar-toggler-icon {
-    background-image: url("../../public/assets/Hamburger Menu.svg");
-  }
-  
+  border-color: $light-grey;
+}
+
+.navbar-toggler:active {
+  border-color: $light-grey;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("../../public/assets/Hamburger Menu.svg");
+}

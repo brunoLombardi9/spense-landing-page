@@ -1,16 +1,21 @@
 import React from "react";
-import { Container, Image, Row } from "react-bootstrap";
+import { Container, Image } from "react-bootstrap";
 import { brandsImages } from "../utilities/constants";
 import "./css/Brands.css";
+import UseGetWindowsWidth from "../utilities/hooks/UseGetWindowsWidth";
 
 const Brands = () => {
+  const width = UseGetWindowsWidth();
   return (
-    <Container className="p-4">
-      <Row className="">
-        {brandsImages.map((b) => (
-          <Image className="brandsImages mx-auto" key={b.brand} src={b.logoUrl} />
-        ))}
-      </Row>
+    <Container fluid={width < 1000} className="py-4 d-flex">
+      {brandsImages.map((b) => {
+        if(width < 500 && b.id > 2) return;  
+        if(width < 900 && b.id > 3) return;
+        return(
+          <Image className="brandsImages m-auto" key={b.brand} src={b.logoUrl} />
+        )
+      })}
+     
     </Container>
   );
 };
