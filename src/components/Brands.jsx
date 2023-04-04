@@ -9,8 +9,8 @@ const Brands = () => {
   return (
     <Container fluid={width < 1000} className="py-4 d-flex">
       {brandsImages.map((b) => {
-        if(width < 500 && b.id > 2) return;  
-        if(width < 900 && b.id > 3) return;
+        if(width < 600 && b.id > 2) return;  
+        if(width < 950 && b.id > 4) return;
         return(
           <Image className="brandsImages m-auto" key={b.brand} src={b.logoUrl} />
         )

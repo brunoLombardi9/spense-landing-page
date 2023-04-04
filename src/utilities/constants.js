@@ -5,6 +5,7 @@ export const topNav = {
 
 export const getStarted = {
   heroDesktop: "assets/Hero Image (Desktop).png",
+  heroTablet: "assets/Hero Image (Tablet).png",
   heroMobile: "assets/Hero Image (Mobile).png",
   title: "Share your unfiltered thoughts. Get paid.",
   checkIcon: "assets/Checkmark.svg",
@@ -46,7 +47,7 @@ export const textEditor = {
 
 export const footer = {
   description:
-    "Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doingjust that.",
+    "Spense is an open platform for individuals to share their unfiltered thoughts. Discuss the topics you love, and get paid for doing just that.",
   sections: [
     ["Sitemap", "Homepage"],
     ["Resources", "Support", "Contact", "FAQ"],

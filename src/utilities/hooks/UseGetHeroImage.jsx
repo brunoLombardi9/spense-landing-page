@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
+import { getStarted } from "../constants";
 
 const UseGetHeroImage = (width) => {
   const [heroImage, setHeroImage] = useState("");
 
   useEffect(() => {
-    width < 768
-      ? setHeroImage("assets/Hero Image (Mobile).png")
-      : setHeroImage("assets/Hero Image (Desktop).png");
+    if (width <= 600) setHeroImage(getStarted.heroMobile);
+    if (width > 600 && width <= 1000) setHeroImage(getStarted.heroTablet);
+    if (width > 1000) setHeroImage(getStarted.heroDesktop);
   }, [width]);
 
   return heroImage;

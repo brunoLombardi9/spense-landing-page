@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar } from "react-bootstrap";
 import { topNav } from "../utilities/constants";
 import UseGetWindowsWidth from "../utilities/hooks/UseGetWindowsWidth";
 import GetStartedBtn from "./GetStartedBtn";
@@ -8,7 +8,7 @@ const TopNav = () => {
   const width = UseGetWindowsWidth();
 
   return (
-    <Navbar className="py-5 bg-light-grey" collapseOnSelect expand="lg" as="header">
+    <Navbar className="py-5 bg-light-grey" collapseOnSelect expand="md" as="header">
       <Container fluid={width < 992}>
         <Navbar.Brand href="./" className="fw-bold">
           spense.

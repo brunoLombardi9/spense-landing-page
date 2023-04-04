@@ -11,10 +11,10 @@ const GetStartedSection = () => {
   const heroImage = UseGetHeroImage(width);
   
   return (
-    <div className="bg-light-grey">
+    <Col className="bg-light-grey">
       <Container fluid={width < 991} className="bg-light-grey">
-        <Row className="flex-column-reverse flex-md-row pb-5 bg-light-grey">
-          <Col md={6}>
+        <Row className="flex-column-reverse flex-lg-row pb-5 bg-light-grey">
+          <Col lg={6}>
             <h1 className="display-3 fw-bold mt-5">{getStarted.title}</h1>
             <h2 className="link-brown display-5">{getStarted.description}</h2>
 
@@ -44,12 +44,12 @@ const GetStartedSection = () => {
             </div>
           </Col>
 
-          <Col md={6} className="d-flex">
+          <Col lg={6} className="d-flex">
             <Image src={heroImage} fluid className="m-auto heroImage" />
           </Col>
         </Row>
       </Container>
-    </div>
+    </Col>
   );
 };
 
